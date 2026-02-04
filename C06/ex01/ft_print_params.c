@@ -6,7 +6,7 @@
 /*   By: marcde-c <marcde-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/03 18:24:56 by marcde-c          #+#    #+#             */
-/*   Updated: 2026/02/03 18:39:49 by marcde-c         ###   ########.fr       */
+/*   Updated: 2026/02/04 12:52:41 by marcde-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	main(int argc, char **argv)
 	int	i;
 
 	i = 1;
-	while (argv[i] != NULL)
+	while (i < argc)
 	{
 		ft_putchar(argv[i]);
 		ft_putchar("\n");
