@@ -6,7 +6,7 @@
 /*   By: marcde-c <marcde-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/04 11:32:48 by marcde-c          #+#    #+#             */
-/*   Updated: 2026/02/04 13:18:03 by marcde-c         ###   ########.fr       */
+/*   Updated: 2026/02/05 12:37:59 by marcde-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,7 @@ void	ft_putstr(char *str)
 
 	i = 0;
 	while (str[i] != '\0')
-	{
-		ft_putchar(str[i]);
-		i++;
-	}
+		ft_putchar(str[i++]);
 	ft_putchar('\n');
 }
 
